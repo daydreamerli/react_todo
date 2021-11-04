@@ -1,0 +1,118 @@
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+*{
+  margin:0;
+  padding:0;
+}
+.header{
+  display: flex;
+  background-color: rgb(193,214,243);
+  line-height: 48px;
+}
+.header li{
+  width: 120px;
+  text-align: center;
+  color: rgb(155,163,175)
+}
+.todo-container,.about-container {
+  display: flex;
+  padding: 16px;
+}
+.form-container{
+  width: 300px;
+  margin-right: 16px;
+}
+.list{
+  width: 500px;
+  margin-top: 15px;
+}
+label{
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+}
+.form-container input{
+  padding-left: 4px;
+}
+input{
+  width: 164px;
+  height: 24px;
+}
+textarea{
+  width: 162px;
+  padding: 4px;
+}
+select{
+  width: 172px;
+  height: 28px;
+}
+button{
+  padding: 4px 8px;
+  background-color: rgb(97,190,249);
+  color: #fff;
+  cursor: pointer;
+}
+.list-container{
+  margin: 8px;
+}
+.list {
+  border: 2px solid #000;
+}
+
+.list li{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 32px;
+  text-align: center;
+}
+.list li:nth-child(odd){
+  background-color: rgb(245,244,223);
+}
+.list li.header{
+  background-color: rgb(179,179,162);
+}
+.list li input{
+  width: 32px;
+}
+.list li .description{
+  width: 100px;
+}
+.list li .category{
+  width: 80px;
+}
+.list li .operate{
+  width: 60px;
+}
+.list li .operate.list-item{
+  color: rgb(233,114,121);
+  cursor: pointer;
+}
+.list li.no-data{
+  height: 100px;
+  align-items: center;
+}
+.list .checkbox{
+  width: 18px;
+  height: 18px;
+}
+.detail-container{
+  padding: 16px;
+}
+.detail-container .item{
+  margin: 8px;
+}
+.detail-container span{
+  font-weight: bolder;
+  margin-right: 4px;
+}
+.link{
+  color: rgb(135,137,140)
+}
+.link.active{
+  color: rgb(52,59,68)
+}
